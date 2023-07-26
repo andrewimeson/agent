@@ -166,4 +166,5 @@ func appendScrapeConfig(
 	b.AppendCloudFlareConfig()
 	b.AppendJournalConfig()
 	b.AppendPushAPI()
+	b.AppendGCPLog()
 }
